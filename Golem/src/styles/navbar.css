@@ -1,0 +1,21 @@
+.navlink {
+    color: white;
+    padding: 0 15px;
+}
+
+.MuiBox-root .css-1t6c9ts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    color: white;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+.toolbar img {
+    width: 150px !important;
+}

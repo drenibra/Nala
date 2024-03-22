@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.golem-button {
+    background-color: #3cb6ee;
+}
+
+.txtField {
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+#root, .golem-background {
+    background-image: url("../assets/background.png");
+}
+
+.virtual-coach_selfmessage {
+    background-color: #6262d5 !important;
+}
+.golem-audio {
+    display: none;
+}
+
+.chatInputArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.chatInputArea input {
+    background-color: rgba(240, 248, 255, 0.300);
+}
+.loadingComponent {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0;
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    bottom: -50%;
+    left: 40%;
+}

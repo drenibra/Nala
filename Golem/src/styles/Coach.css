@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 99, 99);
+}
+
+.sendBtn {
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #3cb6ee;
+    color: rgb(226, 221, 221);
+}
+
+.textField {
+    flex-grow: 1; 
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 25px;
+}
